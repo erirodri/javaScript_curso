@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta htt p-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplos JavaScript</title>
+    <!-- IMPORT DE LIBRERIA AXIOS PARA PODER SER UTILIZADA EN **ejemplo_Fetch-AXIOS.js** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <h1>HOLA LIVESERVER!!</h1>
+    <h1> Ejemplos JavaScript... Ver consola</h1>
+    <button id="sumar">SUMAR</button>
+    <button id="restar">RESTAR</button>
+    <button id="multiplicar">MULTIPLICAR</button>
+    <h1> </h1>
+    <h1> ¿Aceptas la promesa?</h1>
+    <button id="aceptar">ACEPTAR</button>
+    <button id="denegar">DENEGAR</button>
+    <h1> ¿Aceptas la promesa ASYNC?</h1>
+    <button id="aceptarAsync" onclick="aceptarDenegarAsync(1)">ACEPTAR</button>
+    <button id="denegarAsync" onclick="aceptarDenegarAsync(2)">DENEGAR</button>
+
     <script src="./js/variables.js"></script>
     <script src="./js/arrays.js"></script>
+    <script src="./js/ejemplo_Async_Await.js"></script>
+    <script src="./js/ejemplos_Callbacks.js"></script>
+    <script src="./js/ejemplos_Promesas.js"></script>
+    <script src="./js/ejemplo_Fetch-AXIOS.js"></script>
+    <!-- DESCOMENTAR PARA VER EJEMPLOS EN EJECUCION 
+    <script src="./js/intervalos.js"></script> -->
 </body>
 </html>
